@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/background"
+    >
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/results_layout" android:orientation="vertical" android:addStatesFromChildren="false">
+        <TextView android:id="@+id/result_postal_code_service_title" android:text="@string/postal_code_app_title" style="@style/title_style" android:layout_height="wrap_content" android:layout_width="fill_parent" ></TextView>
+        <TableLayout android:layout_height="wrap_content" android:paddingLeft="15dp" android:paddingTop="35dp" android:gravity="right" android:id="@+id/results_table_layout" android:layout_width="match_parent">
+            <TextView android:layout_height="fill_parent" android:text="@string/result_title" android:id="@+id/result_title_label" android:layout_width="wrap_content" style="@style/subtitle_style"></TextView>
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="10dp" android:id="@+id/post_office_row">
+                <TextView android:text="@string/result_post_office_label" style="@style/result_style" android:layout_width="100dp" android:layout_height="wrap_content" android:id="@+id/post_office_label"></TextView>
+                <TextView android:layout_width="200dp" android:layout_height="wrap_content" android:id="@+id/post_office_result_label"></TextView>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="10dp" android:id="@+id/postal_code_row">
+                <TextView android:text="@string/result_postal_code_label" style="@style/result_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/postal_code_label"></TextView>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/postal_code_reuslt_label"></TextView>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="10dp" android:id="@+id/tp_number_row">
+                <TextView android:text="@string/result_tp_no_label" style="@style/result_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tp_number_label"></TextView>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tp_number_result_label"></TextView>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="10dp" android:id="@+id/fax_number_row">
+                <TextView android:text="@string/result_fax_no_label" style="@style/result_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/fax_number_label"></TextView>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/fax_number_result_label"></TextView>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

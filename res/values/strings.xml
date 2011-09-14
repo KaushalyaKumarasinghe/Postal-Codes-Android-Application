@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <string name="hello">Hello World, PostalCodeActivity!</string> -->
+    <string name="app_name">PostalCodeApp</string>
+    <string name="postal_code_app_title">Sri Lanka Postal Codes</string>
+    <string name="division_list_header">Divisions</string>
+    <string name="postOffice_list_header">Post Offices</string>
+    <string name="search_by_office_title">Search By Post Office</string>
+    <string name="division_label">Division : </string>
+    <string name="post_office_label">Post Office : </string>
+    <string name="search_button_name">Search</string>
+    <string name="search_by_code_title">Search By Postal Code</string>
+    <string name="postal_code_label">Postal Code : </string>
+    <string name="result_title">Results : </string>
+    <string name="result_post_office_label">Post Office : </string>
+    <string name="result_postal_code_label">Postal Code : </string>
+    <string name="result_tp_no_label">T.P. No : </string>
+    <string name="result_fax_no_label">Fax No : </string>
+</resources>
