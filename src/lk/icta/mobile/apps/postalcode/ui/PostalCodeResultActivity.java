@@ -159,7 +159,7 @@ public class PostalCodeResultActivity extends Activity {
 							faxNumTxt.setVisibility(View.INVISIBLE);
 							faxNumResultTxt.setVisibility(View.INVISIBLE);
 
-							Toast noInfomationToastMesage = Toast.makeText(PostalCodeResultActivity.this, "No information available for the postal code : " + postalCodeInput, Toast.LENGTH_LONG);
+							Toast noInfomationToastMesage = Toast.makeText(PostalCodeResultActivity.this, "No information available ", Toast.LENGTH_LONG);
 							noInfomationToastMesage.show();
 							
 							progressDialog.dismiss();
@@ -259,7 +259,7 @@ public class PostalCodeResultActivity extends Activity {
 							faxNumTxt.setVisibility(View.INVISIBLE);
 							faxNumResultTxt.setVisibility(View.INVISIBLE);
 
-							Toast noInfomationToastMesage = Toast.makeText(PostalCodeResultActivity.this, "No information available for the postal code : " + postalCodeInput, Toast.LENGTH_LONG);
+							Toast noInfomationToastMesage = Toast.makeText(PostalCodeResultActivity.this, "No information available for the input : " + postalCodeInput, Toast.LENGTH_LONG);
 							noInfomationToastMesage.show();
 							progressDialog.dismiss();
 
