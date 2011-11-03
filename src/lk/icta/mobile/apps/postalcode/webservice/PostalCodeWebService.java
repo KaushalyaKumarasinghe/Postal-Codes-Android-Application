@@ -22,7 +22,7 @@ import android.util.Log;
 
 public class PostalCodeWebService {
 	private static final String NAMESPACE = "http://ws.wso2.org/dataservice";
-	private static final String ENDPOINT = "";
+	private static final String ENDPOINT = "http://www.srilanka.lk:9080/services/PostalCodeServiceProxy.PostalCodeServiceProxyHttpSoap12Endpoint";
 
 	private PostalCodeWebService() {
 	}
